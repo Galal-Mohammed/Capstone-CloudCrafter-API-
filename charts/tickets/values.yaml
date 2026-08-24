@@ -1,9 +1,9 @@
 replicaCount: 1
 
 image:
-  repository: cloudcrafter/tickets
+  repository: cloudcrafter/users
   tag: "v1.0.0"
-  pullPolicy: IfNotPresent
+  pullPolicy: Never
 
 service:
   type: ClusterIP
