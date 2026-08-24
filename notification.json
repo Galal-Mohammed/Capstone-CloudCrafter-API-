@@ -1,0 +1,9 @@
+{
+  "LambdaFunctionConfigurations": [
+    {
+      "Id": "TicketUploadTrigger",
+      "LambdaFunctionArn": "arn:aws:lambda:us-east-1:000000000000:function:TicketNotifier",
+      "Events": ["s3:ObjectCreated:*"]
+    }
+  ]
+}
